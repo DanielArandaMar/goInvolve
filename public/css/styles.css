@@ -1,0 +1,338 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    background: #F3F3F3;
+}
+html, body {
+    height: 100%;
+}
+color-blue {
+    color: #1f4287;
+}
+
+/* --  HEADER  --  */
+
+.navbar-nav .nav-item .dropdown-menu .image{
+    width: 30%;
+    margin: 0 auto 10% auto;
+}
+
+.navbar-nav .nav-item .dropdown-menu .image img {
+    vertical-align: top;
+    width: 100%;
+    border-radius: 100%;
+}
+
+
+/* --  HEADER  --  */
+
+
+
+
+
+/* --  BUSCADOR DEL HEADER  --  */
+
+.search-section {
+    padding: 2%;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    width: 100%;
+    z-index: 1000;
+    display: none;
+    
+}
+
+
+.search-section form {
+    margin: auto;
+}
+
+.search-section form .group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-section form .group textarea {
+    font-size: 1.2rem;
+}
+
+
+/* --  BUSCADOR DEL HEADER  --  */
+
+
+
+
+
+
+/* -- ASIDE -- */
+.container .row .aside {
+    overflow: hidden;
+}
+.container .row .aside .card .card-body{
+    width: 100%;
+}
+
+.container .row .aside .card .card-body form textarea, .search-section form .group textarea  {
+    border: none;
+    padding: 10px;
+    min-height: 100px;
+    max-height: 200px;
+    width: 100%;
+    overflow-y: hidden;
+    letter-spacing: 0.5px;
+}
+.container .row .aside .card .card-body .items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10% 0;
+}
+.container .row .aside .card .card-body .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .row .aside .card .card-body .item .total{
+    font-size: 2rem;
+}
+
+.container .row .aside.upload .card .card-body form textarea {
+    min-height: 300px;
+    max-height: 500px;
+    margin: 3% 0;
+}
+/* -- ASIDE -- */
+
+
+
+
+
+/* --  CARD PERSONALIZADO DE LA APP  --  */
+
+.card-c {
+    background: #fff;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+.card-c .card-header-c span {
+    font-size: 28px;
+    color: rgba(0,0,0,0.5);
+
+}
+.card-c .group .input-c {
+    width: 80%;
+    margin: 1% auto;
+    
+}
+.card-c .group .input-c input{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.card-c .image {
+    margin: 3% auto 0 auto;
+    width: 20%;
+}
+
+.card-c .not-image {
+    width: 20%;
+    border: 2px solid rgba(0,0,0,0.2);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.card-c .image img {
+    vertical-align: top;
+    width: 100%;
+}
+
+.card-c.head-profile .image{
+    width: 20%;
+}
+.card-c.head-profile .image img{
+    border-radius: 100%;
+    vertical-align: top;
+    width: 100%;
+}
+.card-c.head-profile .text-info{
+    padding: 2%;
+    text-align: center;
+}
+.card-c.head-profile .text-info h3,
+.card-c.head-profile .text-info h5{
+    color: rgba(0,0,0,0.8);
+}
+
+/* --  CARD PERSONALIZADO DE LA APP  --  */
+
+
+
+
+
+/* --  BOTONES PERSONALIZADOS DE LA APP  --  */
+
+.btn-c-1 {
+    background: #1f4287;
+    color: #fff;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* --  BOTONES PERSONALIZADOS DE LA APP  --  */
+
+
+
+
+
+
+
+/* --  ALERTAS DE LA APLICACIÓN  --  */
+
+.alert-c {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+    margin: 2% 0;
+}
+
+.alert-c.color-success{
+    background: #7ddd56;
+    color: #fff;
+}
+
+/* --  ALERTAS DE LA APLICACIÓN  --  */
+
+
+
+
+
+
+
+/* --   POST DE LA APLICACION  --  */
+.post{
+    margin: 2% 0;
+}
+
+.post .card-body .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post .card-body .head .data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post .card-body .head .data .user-name{
+    margin-left: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+}
+
+.post .card-body .head .data .image-user{
+    width: 10%;
+}   
+
+.post .card-body .head .data .image-user img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 100%;
+}
+
+
+.post .card-body .content {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.post .card-body .content a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.5);
+    float: right;
+}
+
+.post .card-body .content p{
+    font-size: 1.2rem;
+    color: rgba(0,0,0,0.8);
+}
+
+.post .card-body .stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+.post .card-body .stats a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+}
+
+.post .card-body .stats.deeper {
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+.post .card-body .foot .image-post {
+    margin: auto;
+    width: 65%;
+    display: none;
+}
+
+.post .card-body .foot .image-post img {
+    width: 100%;
+    vertical-align: top;
+}
+
+/* --   POST DE LA APLICACION  --  */
+
+
+
+
+
+/* --   SISTEMAS DE COMENTAIOS  --  */
+.comments {
+    background: #fff;
+    padding: 2% 5%;
+    width: 75%;
+    margin: auto;
+    box-shadow: 2px 1px 1px rgba(0,0,0,0.1);
+}
+
+.comments .comment-form .group textarea {
+    border: none;
+    width: 100%;
+    font-size: 1.2rem;
+    color: rgba(0,0,0,0.8);
+    max-width: 100%;
+    max-height: 300px;
+    min-height: 100px;
+    
+}
+
+
+
+.comments .answers .card {
+    border: none;
+}
+
+
+/* --   SISTEMAS DE COMENTAIOS  --  */
